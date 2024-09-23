@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:test/animated_splash_image.dart';
-import 'package:test/animated_splash_text.dart';
+import 'package:test/features/splash/views/widgets/animated_splash_image.dart';
+import 'package:test/features/splash/views/widgets/animated_splash_text.dart';
 import 'package:test/core/routing/routes.dart';
 import 'package:test/core/theming/app_colors.dart';
 

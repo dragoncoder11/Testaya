@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:test/product_grid_view.dart';
+import 'package:test/features/home/views/widgets/product_grid_view.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

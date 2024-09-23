@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:test/product_card.dart';
-import 'package:test/product_cubit/product_cubit.dart';
-import 'package:test/skele_product.dart';
+import 'package:test/features/home/views/widgets/product_card.dart';
+import 'package:test/features/home/logic/product_cubit/product_cubit.dart';
+import 'package:test/features/home/views/widgets/skele_product.dart';
 
 class ProductsGridView extends StatelessWidget {
   const ProductsGridView({super.key});

@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:test/core/failure/failure.dart';
-import 'package:test/product_model.dart';
-import 'package:test/product_repo.dart';
-import 'package:test/product_service.dart';
+import 'package:test/features/home/data/models/product_model.dart';
+import 'package:test/features/home/data/repos/product_repo.dart';
+import 'package:test/features/home/data/services/product_service.dart';
 
 class ProductRepoImpl implements ProductRepo {
   ProductService productService = ProductService(dio: Dio());

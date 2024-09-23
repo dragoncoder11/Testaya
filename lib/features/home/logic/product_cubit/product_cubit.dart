@@ -2,8 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:meta/meta.dart';
 import 'package:test/core/failure/failure.dart';
-import 'package:test/product_model.dart';
-import 'package:test/product_repo_impl.dart';
+import 'package:test/features/home/data/models/product_model.dart';
+import 'package:test/features/home/data/repos/product_repo_impl.dart';
 
 part 'product_state.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:test/add_to_cart_circle.dart';
-import 'package:test/add_to_favourites_circle.dart';
+import 'package:test/features/home/views/widgets/add_to_cart_circle.dart';
+import 'package:test/features/home/views/widgets/add_to_favourites_circle.dart';
 import 'package:test/core/helper/app_images.dart';
 import 'package:test/core/helper/spacing.dart';
 import 'package:test/core/theming/app_colors.dart';

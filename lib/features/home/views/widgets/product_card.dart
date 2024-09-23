@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:test/add_to_favourites_circle.dart';
+import 'package:test/features/home/views/widgets/add_to_favourites_circle.dart';
 import 'package:test/core/helper/spacing.dart';
 import 'package:test/core/theming/app_colors.dart';
 import 'package:test/core/theming/app_text_styles.dart';
-import 'package:test/product_model.dart';
+import 'package:test/features/home/data/models/product_model.dart';
 import 'add_to_cart_circle.dart';
 
 class ProductCard extends StatelessWidget {
