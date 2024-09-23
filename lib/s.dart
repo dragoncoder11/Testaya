@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:test/splash_screen.dart';
+import 'package:test/core/routing/app_router.dart';
+import 'package:test/core/routing/routes.dart';
 
 class StoreApp extends StatelessWidget {
-  const StoreApp({super.key});
-
+  const StoreApp({super.key, required this.appRouter});
+final AppRouter appRouter;
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
@@ -12,10 +13,11 @@ class StoreApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        return const MaterialApp(
+        return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Locked App',
-          home: SplashScreen(),
+         initialRoute: Routes.splashRoute,
+         onGenerateRoute: appRouter.generateRoute,
         );
       },
     );

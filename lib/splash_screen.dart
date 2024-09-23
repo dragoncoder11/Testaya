@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:test/animated_splash_image.dart';
 import 'package:test/animated_splash_text.dart';
-import 'package:test/home_page.dart';
+import 'package:test/core/routing/routes.dart';
+import 'package:test/core/theming/app_colors.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -31,9 +32,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
 
       Future.delayed(const Duration(milliseconds: 2000), () {
         Navigator.of(context)
-            .pushReplacement(MaterialPageRoute(builder: (context) {
-          return const HomePage();
-        }));
+            .pushReplacementNamed(Routes.homeRoute);
       });
     });
   }
@@ -63,6 +62,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.mainWhite,
       body: Stack(
         alignment: Alignment.center,
         children: [
