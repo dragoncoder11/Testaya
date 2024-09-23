@@ -2,6 +2,9 @@ flutter_native_splash:
   color: "#FFFFFF"
 
   android_12:
-    color: "#FFFFFF"  # Background color for Android 12
+    color: "#FFFFFF"
+    image: assets/Frame2.png 
+    
 
   ios: true
+
