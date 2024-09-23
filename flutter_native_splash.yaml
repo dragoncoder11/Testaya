@@ -1,0 +1,7 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+
+  android_12:
+    color: "#FFFFFF"  # Background color for Android 12
+
+  ios: true
